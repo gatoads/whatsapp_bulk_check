@@ -46,4 +46,4 @@ Resultados salvos em tempo real em saida.log
 - In case of errors during URL requests, the script will provide details about the error.
 - The number of threads can be adjusted to optimize processing speed, but avoid choosing extremely high numbers.
 
-This script was developed by [Gato](https://www.instagram.com/gato.ads/). If you need assistance or have questions, feel free to reach out!
+Developed by [Gato](https://www.instagram.com/gato.ads/).
