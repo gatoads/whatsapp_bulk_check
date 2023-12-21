@@ -36,8 +36,8 @@ bash
 The script will provide real-time feedback in the console and save the results in the specified output file. The results will indicate whether the specific element was found on each URL or if an error occurred during the request.
 
 ```
-[ ✔️ ] available ~ https://chat.whatsapp.com/103gmaFldet3alR1levheq: Grupo Maneiro
-[ ✖️ ] non-existent ~ https://invalidurl.com: Error accessing URL https://erroredurl.com. Details: Error message.
+[ ✔️ ] disponível ~ https://chat.whatsapp.com/103gmaFldet3alR1levheq: Grupo Maneiro
+[ ✖️ ] inexistente ~ https://invalidurl.com: Error accessing URL https://erroredurl.com. Details: Error message.
 Resultados salvos em tempo real em saida.log
 ```
 
