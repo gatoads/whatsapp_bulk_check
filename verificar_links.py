@@ -13,9 +13,9 @@ def verificar_elemento(url, output_file):
         h3_element = soup.find('h3', class_='_9vd5 _9scr', style='color:#5E5E5E;')
 
         if h3_element and h3_element.text.strip():
-            result = f'[ ✔️ ] disponível ~ {url}: {h3_element.text}'
+            result = f'[ {Fore.GREEN}✔️{Fore.WHITE} ] {Fore.GREEN}disponível{Fore.WHITE} ~ {Fore.CYAN}{url}{Fore.WHITE}: {h3_element.text}'
         else:
-            result = f'[ ✖️ ] inexistente ~ {url}: '
+            result = f'[ {Fore.RED}✖️{Fore.WHITE} ] {Fore.RED}inexistente {Fore.WHITE}~{Fore.RED} {url}{Fore.WHITE}'
     except RequestException as e:
         result = f'Erro ao acessar a URL {url}. Detalhes: {str(e)}'
 
